@@ -125,9 +125,21 @@ body, html {
     object-fit: cover;
 }
 
+.name {
+    display: flex;
+    gap: 10px;
+    max-width: 133px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
 .teacher-name h2 {
     font-size: 24px;
     font-weight: Bold;
+}
+
+.name-aditer {
+    color: var(--orange);
 }
 
 .teacher-description h3 {
@@ -146,7 +158,23 @@ body, html {
     letter-spacing: 0.25px;
 }
 
-.teacher a {
+.footer a {
+    display: inline-block;
+    background: #A7AEB833;
+    padding: 4px 16px 4px 16px;
+    gap: 10px;
+    background-color: rgba(167, 174, 184, 0.2);
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 8px;
+    margin-bottom: 6px;
+}
+
+.tools a {
     display: inline-block;
     background: #A7AEB833;
     padding: 4px 16px 4px 16px;
